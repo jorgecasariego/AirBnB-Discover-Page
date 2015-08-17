@@ -14,6 +14,13 @@
 		273762471B825E6300CF1EB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273762461B825E6300CF1EB4 /* Images.xcassets */; };
 		2737624A1B825E6300CF1EB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273762481B825E6300CF1EB4 /* LaunchScreen.xib */; };
 		273762561B825E6300CF1EB4 /* AirBnBProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273762551B825E6300CF1EB4 /* AirBnBProjectTests.swift */; };
+		273762601B825EA700CF1EB4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737625F1B825EA700CF1EB4 /* Data.swift */; };
+		273762621B82656200CF1EB4 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273762611B82656200CF1EB4 /* PlacesTableViewController.swift */; };
+		273762641B82677000CF1EB4 /* Places TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273762631B82677000CF1EB4 /* Places TableViewCell.swift */; };
+		273762691B826BCE00CF1EB4 /* amsterdam.png in Resources */ = {isa = PBXBuildFile; fileRef = 273762651B826BCE00CF1EB4 /* amsterdam.png */; };
+		2737626A1B826BCE00CF1EB4 /* paris.png in Resources */ = {isa = PBXBuildFile; fileRef = 273762661B826BCE00CF1EB4 /* paris.png */; };
+		2737626B1B826BCE00CF1EB4 /* roma.png in Resources */ = {isa = PBXBuildFile; fileRef = 273762671B826BCE00CF1EB4 /* roma.png */; };
+		2737626C1B826BCE00CF1EB4 /* praga.png in Resources */ = {isa = PBXBuildFile; fileRef = 273762681B826BCE00CF1EB4 /* praga.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		2737624F1B825E6300CF1EB4 /* AirBnBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirBnBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273762541B825E6300CF1EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273762551B825E6300CF1EB4 /* AirBnBProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnBProjectTests.swift; sourceTree = "<group>"; };
+		2737625F1B825EA700CF1EB4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		273762611B82656200CF1EB4 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		273762631B82677000CF1EB4 /* Places TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Places TableViewCell.swift"; sourceTree = "<group>"; };
+		273762651B826BCE00CF1EB4 /* amsterdam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amsterdam.png; sourceTree = "<group>"; };
+		273762661B826BCE00CF1EB4 /* paris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paris.png; sourceTree = "<group>"; };
+		273762671B826BCE00CF1EB4 /* roma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roma.png; sourceTree = "<group>"; };
+		273762681B826BCE00CF1EB4 /* praga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praga.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,9 @@
 				273762481B825E6300CF1EB4 /* LaunchScreen.xib */,
 				2737623E1B825E6300CF1EB4 /* AirBnBProject.xcdatamodeld */,
 				2737623A1B825E6300CF1EB4 /* Supporting Files */,
+				2737625F1B825EA700CF1EB4 /* Data.swift */,
+				273762611B82656200CF1EB4 /* PlacesTableViewController.swift */,
+				273762631B82677000CF1EB4 /* Places TableViewCell.swift */,
 			);
 			path = AirBnBProject;
 			sourceTree = "<group>";
@@ -93,6 +110,10 @@
 		2737623A1B825E6300CF1EB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				273762651B826BCE00CF1EB4 /* amsterdam.png */,
+				273762661B826BCE00CF1EB4 /* paris.png */,
+				273762671B826BCE00CF1EB4 /* roma.png */,
+				273762681B826BCE00CF1EB4 /* praga.png */,
 				2737623B1B825E6300CF1EB4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,7 +218,11 @@
 			files = (
 				273762451B825E6300CF1EB4 /* Main.storyboard in Resources */,
 				2737624A1B825E6300CF1EB4 /* LaunchScreen.xib in Resources */,
+				2737626B1B826BCE00CF1EB4 /* roma.png in Resources */,
+				273762691B826BCE00CF1EB4 /* amsterdam.png in Resources */,
 				273762471B825E6300CF1EB4 /* Images.xcassets in Resources */,
+				2737626A1B826BCE00CF1EB4 /* paris.png in Resources */,
+				2737626C1B826BCE00CF1EB4 /* praga.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +242,10 @@
 			files = (
 				273762421B825E6300CF1EB4 /* ViewController.swift in Sources */,
 				2737623D1B825E6300CF1EB4 /* AppDelegate.swift in Sources */,
+				273762641B82677000CF1EB4 /* Places TableViewCell.swift in Sources */,
 				273762401B825E6300CF1EB4 /* AirBnBProject.xcdatamodeld in Sources */,
+				273762601B825EA700CF1EB4 /* Data.swift in Sources */,
+				273762621B82656200CF1EB4 /* PlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
